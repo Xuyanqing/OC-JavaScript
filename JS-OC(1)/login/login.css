@@ -1,0 +1,26 @@
+@charset "utf-8";
+body,div,label,input{
+    margin:0px;
+	padding: 0px;
+}
+
+div{
+	width: 100%;
+	height: auto;
+	background: clear;
+}
+
+h5{
+    font-size:30px;
+    text-align:center;
+}
+
+label{
+    font-size:15px;
+    color: green;
+}
+
+input{
+    width:200px;
+    height:20px;
+}

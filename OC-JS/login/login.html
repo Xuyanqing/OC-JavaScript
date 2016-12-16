@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<script src="login.js" type="text/javascript"></script>
+</head>
+<body>
+	<div>
+        <h5>这是一个html</h5>
+        <form>
+            <label>用户名：<input type="text" id="username" name="username" placeholder="请输入用户名"> </label><br>
+            <label>密 码：<input type="text" id="password" name="password" value="" placeholder="请输入密码"></label><br>
+            <!--这里在js里调用oc的方法（带参数）-->
+            <button type="submit" onclick="login()">登录</button>
+            <!--这里直接调用oc的方法。test是你注册时写的，showAlertView是oc的方法-->
+            <button type="submit" onclick="test.showAlertView()">这是一个alertView</button>
+        </form>
+	</div>
+</body>
+</html>
