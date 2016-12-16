@@ -46,7 +46,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iC-Nf-1cD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iC-Nf-1cD">
                                 <rect key="frame" x="16" y="141" width="343" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -60,9 +60,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="0iC-Nf-1cD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="1uw-5a-VEX"/>
                             <constraint firstItem="qtR-P7-cJ4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="4EE-0k-bdi"/>
                             <constraint firstItem="qtR-P7-cJ4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="17" id="IEw-iS-hf2"/>
-                            <constraint firstItem="0iC-Nf-1cD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XVF-wo-g4A"/>
                             <constraint firstAttribute="trailing" secondItem="0iC-Nf-1cD" secondAttribute="trailing" constant="16" id="lnz-Hx-wwl"/>
                             <constraint firstItem="0iC-Nf-1cD" firstAttribute="top" secondItem="qtR-P7-cJ4" secondAttribute="bottom" constant="30" id="n7T-5A-G54"/>
                             <constraint firstAttribute="trailing" secondItem="qtR-P7-cJ4" secondAttribute="trailing" constant="16" id="swl-jW-2yr"/>
