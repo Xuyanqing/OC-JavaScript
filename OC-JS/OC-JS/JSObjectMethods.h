@@ -10,6 +10,10 @@
 
 @protocol JSObjectMethods <JSExport>
 
+//传name
 - (void)loginApp:(NSString*)name;
+//传name password
+- (void)logintest:(NSString*)name :(NSString*)password;
+//alert
 - (void)showAlertView;
 @end

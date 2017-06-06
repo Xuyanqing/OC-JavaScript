@@ -67,6 +67,10 @@
     });
 }
 
+- (void)logintest:(NSString*)name :(NSString*)password {
+    NSLog(@"name ==== %@, password ==== %@",name,password);
+}
+
 //弹框
 - (void)showAlertView
 {

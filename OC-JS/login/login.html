@@ -13,7 +13,9 @@
             <label>用户名：<input type="text" id="username" name="username" placeholder="请输入用户名"> </label><br>
             <label>密 码：<input type="text" id="password" name="password" value="" placeholder="请输入密码"></label><br>
             <!--这里在js里调用oc的方法（带参数）-->
-            <button type="submit" onclick="login()">登录</button>
+            <button type="submit" onclick="login()">传个name</button>
+            <!--这里在js里调用oc的方法（带参数）-->
+            <button type="submit" onclick="nameAndpwd()">传name、pwd</button>
             <!--这里直接调用oc的方法。test是你注册时写的，showAlertView是oc的方法-->
             <button type="submit" onclick="test.showAlertView()">这是一个alertView</button>
         </form>
